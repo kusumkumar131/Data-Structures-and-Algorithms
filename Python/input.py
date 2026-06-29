@@ -16,4 +16,5 @@ new_age_bool=bool(new_age)
 print("Your age after 10 years in boolean will be:", new_age_bool)
  #to convert float to int
 new_age_int=int(new_age)
+
 print("Your age after 10 years in int will be:", new_age_int)
