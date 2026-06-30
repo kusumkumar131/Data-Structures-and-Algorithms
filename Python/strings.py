@@ -20,3 +20,7 @@ print(name.replace("kumar","reddy"))  #replace the substring with another substr
 # in keyword used to check if a substring is present in the string or not. It returns True if the substring is present, otherwise it returns False.
 
 print("kumar" in name)  #True
+
+
+s="kiwi"
+print(s[::-1])
