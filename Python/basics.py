@@ -112,3 +112,6 @@ kusum=25
 x=kusum if kusum>20 else 20
 print(x)
 
+
+lister=list([1,2,4])
+print(*lister)
