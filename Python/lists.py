@@ -174,6 +174,7 @@ thisset = {"apple", "banana", "cherry"}
 
 x = thisset.pop()
 
+
 print(x)
 
 print(thisset) #ransomly removes an item, the removed item is returned by the pop() method
