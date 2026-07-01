@@ -25,6 +25,7 @@ int main(){
             arr.pop_back();
             temp->next=head;
             head=temp;
+            
         }
 
 }
