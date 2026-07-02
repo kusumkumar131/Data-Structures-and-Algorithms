@@ -10,3 +10,5 @@ else:
 x=bool(int(input("Enter a number: ")))
 if x:
     print("Yes")
+
+"""print kusum kumar reddy"""
