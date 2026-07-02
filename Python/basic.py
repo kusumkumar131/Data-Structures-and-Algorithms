@@ -5,3 +5,8 @@ if ((5>2) and 5<10):
     print("Five is greater than two!")
 else:
     print("Five is not greater than two!")
+
+
+x=bool(int(input("Enter a number: ")))
+if x:
+    print("Yes")
