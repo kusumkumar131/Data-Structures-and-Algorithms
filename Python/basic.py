@@ -14,3 +14,5 @@ if x:
 """print kusum kumar reddy"""
 
 #comments in python are written with a # symbol. Anything after the # symbol is ignored by the Python interpreter.
+x,y,z=5,10,15
+print(x,y,z)
