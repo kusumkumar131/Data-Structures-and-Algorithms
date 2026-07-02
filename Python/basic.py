@@ -12,3 +12,5 @@ if x:
     print("Yes")
 
 """print kusum kumar reddy"""
+
+#comments in python are written with a # symbol. Anything after the # symbol is ignored by the Python interpreter.
