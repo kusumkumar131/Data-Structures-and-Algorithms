@@ -17,10 +17,11 @@ int main(){
             }
         }
         swap(arr[i], arr[min_index]);
+        
     }
 
     for(int i=0;i<num;i++){
-        
+
         cout<<arr[i]<<" ";
     }
 }
