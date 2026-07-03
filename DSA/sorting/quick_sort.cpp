@@ -22,6 +22,7 @@ void quickSort(vector<int>& arr, int low, int high) {
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
     }
+    
 }
 int main(){
     int n;
