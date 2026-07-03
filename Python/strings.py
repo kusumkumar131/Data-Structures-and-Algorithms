@@ -23,4 +23,6 @@ print("kumar" in name)  #True
 
 
 s="kiwi"
+
 print(s[::-1])
+
