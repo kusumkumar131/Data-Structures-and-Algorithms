@@ -25,6 +25,7 @@ int binarySearch(int arr[], int n, int target) {
 int main() {
     
     int arr[] = {2, 3, 7, 7, 11, 15, 25}; // Must be sorted
+    
     int n = sizeof(arr) / sizeof(arr[0]);
     int target = 11;
 
