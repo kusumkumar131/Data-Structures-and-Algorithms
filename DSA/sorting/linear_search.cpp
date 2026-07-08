@@ -21,6 +21,7 @@ int main() {
         cout << "Element found at index: " << result << endl;
     } else {
         cout << "Element not found" << endl;
+
     }
 
     return 0;

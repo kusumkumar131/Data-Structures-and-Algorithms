@@ -6,6 +6,7 @@ int main(){
     int area=side*side;
     cout<<area;
     
+    
 
 
 
