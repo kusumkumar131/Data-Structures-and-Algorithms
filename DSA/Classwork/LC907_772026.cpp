@@ -13,7 +13,6 @@ public:
         long long total_sum = 0;
         long long MOD = 1e9 + 7;
 
-        // Find the strictly smaller element to the left
         for (int i = 0; i < n; ++i) {
             while (!s.empty() && arr[s.top()] >= arr[i]) {
                 s.pop();
@@ -22,10 +21,8 @@ public:
             s.push(i);
         }
 
-        // Clear the stack to reuse it
         while (!s.empty()) s.pop();
 
-        // Find the smaller or equal element to the right
         for (int i = n - 1; i >= 0; --i) {
             while (!s.empty() && arr[s.top()] > arr[i]) {
                 s.pop();
@@ -34,7 +31,6 @@ public:
             s.push(i);
         }
 
-        // Calculate the contribution of each element
         for (int i = 0; i < n; ++i) {
             long long left_count = i - left[i];
             long long right_count = right[i] - i;
@@ -48,7 +44,6 @@ public:
 };
 
 int main() {
-    // Optimize standard I/O operations for performance
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 

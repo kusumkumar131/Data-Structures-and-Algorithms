@@ -7,20 +7,19 @@ using namespace std;
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        vector<int> st; // Using a vector as a stack to easily read from bottom to top later
+        vector<int> st; 
         
         for (int ast : asteroids) {
             bool destroyed = false;
             
-            // Collision condition: top of stack is moving right (>0) and current is moving left (<0)
             while (!st.empty() && st.back() > 0 && ast < 0) {
                 if (st.back() < abs(ast)) {
-                    st.pop_back(); // Top asteroid explodes, keep checking previous ones
+                    st.pop_back();
                     continue;
                 } else if (st.back() == abs(ast)) {
-                    st.pop_back(); // Both explode
+                    st.pop_back(); 
                 }
-                destroyed = true; // Current incoming asteroid explodes
+                destroyed = true; 
                 break;
             }
             
