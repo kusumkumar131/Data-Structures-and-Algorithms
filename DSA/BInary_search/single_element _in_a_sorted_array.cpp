@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 //we can also find using xor operation
+//linearly traverse the array and xor all the elements, the result will be the single element
 int main(){
     int n;
     cin>>n;
