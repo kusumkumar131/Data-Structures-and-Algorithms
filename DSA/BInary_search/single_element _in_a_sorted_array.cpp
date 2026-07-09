@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//we can also find using xor operation
 int main(){
     int n;
     cin>>n;
