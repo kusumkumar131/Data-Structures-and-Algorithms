@@ -7,6 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+    // Assuming the input array is sorted and contains exactly one single element
     // Binary search for the single element
     int low = 0, high = n - 1;
     while (low < high) {
