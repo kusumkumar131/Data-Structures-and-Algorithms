@@ -30,6 +30,7 @@ public:
                 
                 // --- More Early Pruning ---
                 if ((long long)nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target) break;
+                
                 if ((long long)nums[i] + nums[j] + nums[n - 2] + nums[n - 1] < target) continue;
                 
                 // Two-pointer approach for the remaining two elements
