@@ -30,7 +30,7 @@ public:
                 
                 // --- More Early Pruning ---
                 if ((long long)nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target) break;
-                
+
                 if ((long long)nums[i] + nums[j] + nums[n - 2] + nums[n - 1] < target) continue;
                 
                 // Two-pointer approach for the remaining two elements
@@ -65,6 +65,7 @@ public:
 // Helper function to print the output in VS Code terminal
 int main() {
     Solution solver;
+    
     std::vector<int> nums = {1, 0, -1, 0, -2, 2};
     int target = 0;
     
