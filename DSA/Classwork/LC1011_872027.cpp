@@ -48,11 +48,12 @@ public:
 };
 
 int main() {
+    
     Solution solver;
     
     // Test Case 1
     vector<int> weights1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    
+
     int days1 = 5;
 
     cout << "Test Case 1 Output: " << solver.shipWithinDays(weights1, days1) << " (Expected: 15)" << endl;
