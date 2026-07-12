@@ -26,6 +26,7 @@ bool isKaprekar(int n) {
         
         long long sum = (sqr / eq_parts) + (sqr % eq_parts);
         
+        
         // The right part must be positive (e.g., for 10^2 = 100, 10 + 00 is not valid because right part is 0)
         if (sum == n && (sqr % eq_parts) > 0) {
             return true;
@@ -42,7 +43,7 @@ int main() {
     
     if (isKaprekar(n)) {
         cout << n << " is a Kaprekar number." << endl;
-        
+
     } else {
         cout << n << " is not a Kaprekar number." << endl;
     }
