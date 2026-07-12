@@ -42,6 +42,7 @@ int main() {
     
     if (isKaprekar(n)) {
         cout << n << " is a Kaprekar number." << endl;
+        
     } else {
         cout << n << " is not a Kaprekar number." << endl;
     }
