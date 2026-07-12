@@ -59,13 +59,14 @@ public:
             }
         }
         return result;
+        
     }
 };
 
 // Helper function to print the output in VS Code terminal
 int main() {
     Solution solver;
-    
+
     std::vector<int> nums = {1, 0, -1, 0, -2, 2};
     int target = 0;
     
