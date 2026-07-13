@@ -43,8 +43,9 @@ public:
             else 
             {
                 // Found a peak element
-                
+
                 return {maxRow, mid};
+                
             }
         }
         
