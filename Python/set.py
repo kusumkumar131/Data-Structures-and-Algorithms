@@ -7,3 +7,8 @@ print(set_num)
 
 for i in set_num:
     print(i)
+
+sum=0
+
+for i in set_num:
+    sum=sum+i
