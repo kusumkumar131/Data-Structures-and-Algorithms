@@ -3,3 +3,7 @@ print(num)
 
 set_num=set(num)
 print(set_num)
+
+
+for i in set_num:
+    print(i)
