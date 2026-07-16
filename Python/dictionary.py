@@ -3,3 +3,5 @@ print(l)
 
 for key in l:
     print(key, l[key])
+for key, value in l.items():
+    print(key, value)
