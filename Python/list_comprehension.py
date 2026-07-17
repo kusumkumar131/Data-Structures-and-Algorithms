@@ -5,3 +5,6 @@ print(p)
 
 l=[lambda x: x**2 for x in p]
 print(l)
+
+l=tuple([lambda x: x**2 for x in p])
+print(l)
