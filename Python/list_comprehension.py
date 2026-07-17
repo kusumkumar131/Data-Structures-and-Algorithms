@@ -4,3 +4,4 @@ p=[int(x) for x in l]
 print(p)
 
 l=[lambda x: x**2 for x in p]
+print(l)
