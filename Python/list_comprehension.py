@@ -11,3 +11,6 @@ print(l)
 
 m=[lambda x: x+2 for x in p]
 print(m)
+
+for i in p:
+    print(i**2)
