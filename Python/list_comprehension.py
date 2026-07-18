@@ -8,3 +8,6 @@ print(l)
 
 l=tuple([lambda x: x**2 for x in p])
 print(l)
+
+m=[lambda x: x+2 for x in p]
+print(m)
