@@ -6,7 +6,8 @@
 class Solution {
 public:
     int romanToInt(std::string s) {
-        // Map to store the integer values of Roman numerals
+        // Map to store the integer values of Roman numerals  using unordered_map for O(1) average time complexity lookups
+        
         std::unordered_map<char, int> roman = {
             {'I', 1},
             {'V', 5},
@@ -27,6 +28,7 @@ public:
             } 
             // Otherwise, add it to the total
             else {
+
                 total += roman[s[i]];
             }
         }
