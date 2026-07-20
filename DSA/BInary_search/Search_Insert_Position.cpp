@@ -30,7 +30,7 @@ int main() {
     cout << "Enter number of elements: ";
     cin >> n;
 
-    vector<int> nums(n);
+    vector<int> nums(n); // Create a vector to hold the sorted elements
     cout << "Enter sorted elements: ";
     for (int i = 0; i < n; ++i) {
         cin >> nums[i];
