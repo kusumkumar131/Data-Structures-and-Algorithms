@@ -15,7 +15,7 @@ public:
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] > target) {
-                high = mid - 1;
+                high = mid - 1;  //binary search to find the target or the insert position
             } else {
                 low = mid + 1;
             }
@@ -44,6 +44,7 @@ int main() {
     int result = solution.searchInsert(nums, target);
 
     cout << "Output (Insert Position): " << result << endl;
+
 
     return 0;
 }
