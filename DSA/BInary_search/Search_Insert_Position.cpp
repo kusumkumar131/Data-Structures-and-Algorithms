@@ -48,3 +48,6 @@ int main() {
 
     return 0;
 }
+
+
+//we ca solve using traversal method but it will take O(n) time complexity and O(1) space complexity. But using binary search we can solve in O(log n) time complexity and O(1) space complexity.
