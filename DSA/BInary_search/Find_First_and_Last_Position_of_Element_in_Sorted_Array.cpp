@@ -2,7 +2,7 @@
 #include <vector>
 
 using namespace std;
-
+//solution class to find the first and last position of an element in a sorted array using binary search
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
