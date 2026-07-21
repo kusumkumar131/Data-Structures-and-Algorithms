@@ -64,3 +64,4 @@ int main() {
 
     return 0;
 }
+//using binary search we can solve in O(log n) time complexity and O(1) space complexity.
