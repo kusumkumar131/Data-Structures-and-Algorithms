@@ -5,7 +5,7 @@ public:
     bool isLeap(long long year) {
         return (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
     }
-
+//a function to calculate the number of odd days in a given year, which is used to determine the day-of-week offset for January 1st of that year
     // day-of-week offset (0-6) for Jan 1 of 'year', using the accurate Gregorian rule
     long long oddDays(long long year) {
         long long y = year - 1;
