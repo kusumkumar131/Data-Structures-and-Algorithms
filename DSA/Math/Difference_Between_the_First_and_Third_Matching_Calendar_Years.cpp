@@ -13,7 +13,7 @@ public:
         return odd % 7;
     }
     //a function to find the difference between the first and third matching calendar years
-        //
+        //a matching calendar year is defined as a year that has the same leap year status and the same day-of-week offset for January 1st as the given year
     int yearDiff(int year) {
         long long baseOdd = oddDays(year);
         bool baseLeap = isLeap(year);
