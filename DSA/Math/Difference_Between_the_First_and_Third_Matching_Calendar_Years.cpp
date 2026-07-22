@@ -12,6 +12,7 @@ public:
         long long odd = y + y / 4 - y / 100 + y / 400;
         return odd % 7;
     }
+    //a function to find the difference between the first and third matching calendar years
 
     int yearDiff(int year) {
         long long baseOdd = oddDays(year);
