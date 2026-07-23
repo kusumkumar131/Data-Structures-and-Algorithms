@@ -11,6 +11,7 @@ public:
         for (int bananas : piles) {
             hours += (bananas + speed - 1) / speed; // ceiling division
         }
+        // Check if the total hours needed is less than or equal to h
 
         return hours <= h;
     }
