@@ -31,7 +31,7 @@ public:
         return low;
     }
 };
-
+// Example usage
 int main() {
     int n;
     cout << "Enter number of piles: ";
