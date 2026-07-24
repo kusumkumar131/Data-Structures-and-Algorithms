@@ -5,3 +5,6 @@ r=sum(l)
 print(r)
 x=min(l)
 print(x)  # prints the minimum element of the list
+
+y=max(l)
+print(y)  # prints the maximum element of the list
