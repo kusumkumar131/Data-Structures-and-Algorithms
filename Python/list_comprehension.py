@@ -28,4 +28,5 @@ while True:
         print("\nExiting the program.")
         break
 
-    
+reddt=[x for x in p if x%2==0]
+print("Even numbers in the list:", reddt)

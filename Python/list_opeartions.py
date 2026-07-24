@@ -1,0 +1,2 @@
+l=[1,2,3,54,5]
+print(l[0])  # prints the first element of the list
