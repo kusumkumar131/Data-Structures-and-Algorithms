@@ -20,7 +20,7 @@ int main(){
         cout<<"One circle is completely inside the other."<<endl;
         return 0;
     }
-
+//formula for area of intersection of two circles
     double part1 = r1*r1*acos((d*d + r1*r1 - r2*r2)/(2*d*r1));
     double part2 = r2*r2*acos((d*d + r2*r2 - r1*r1)/(2*d*r2));
     double part3 = 0.5*sqrt((-d+r1+r2)*(d+r1-r2)*(d-r1+r2)*(d+r1+r2));
