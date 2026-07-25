@@ -17,6 +17,7 @@ int main(){
         return 0;
     }
     if(d<=abs(r1-r2)){
+        //a smaller circle is completely inside a larger circle
         cout<<"One circle is completely inside the other."<<endl;
         return 0;
     }
