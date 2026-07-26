@@ -32,3 +32,4 @@ int main(){
     return 0;
 }
 //time complexity: O(nlog(logn))
+//in normal way takes O(n*sqrt(n)) time complexity
