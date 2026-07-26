@@ -20,7 +20,8 @@ int main(){
             }
         }
     }
-
+//space complexity: O(n)
+//output the prime numbers
     cout<<"Prime numbers up to "<<n<<": ";
     for(int i=2;i<=n;i++){
         if(prime[i]==true){
