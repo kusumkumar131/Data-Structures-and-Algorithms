@@ -36,7 +36,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    // Test Case 2: [9, 9, 9] -> Expected: [1, 0, 0, 0]
+    // Test Case 2: [9, 9, 9] -> Expected:  [1, 0, 0, 0]
     std::vector<int> digits2 = {9, 9, 9};
     std::vector<int> result2 = solution.plusOne(digits2);
     
