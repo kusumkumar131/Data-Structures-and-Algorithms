@@ -22,7 +22,7 @@ public:
         return digits;
     }
 };
-
+//space complexity: O(1) if we ignore the space used for the output vector, otherwise O(n) for the output vector
 int main() {
     Solution solution;
 
