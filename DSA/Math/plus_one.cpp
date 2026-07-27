@@ -13,7 +13,7 @@ public:
                 digits[i]++;
                 return digits;
             }
-            // If the digit is 9, it becomes 0 and carry continues
+            // If the digit is 9, it becomes 0 and carry  continues
             digits[i] = 0;
         }
         
