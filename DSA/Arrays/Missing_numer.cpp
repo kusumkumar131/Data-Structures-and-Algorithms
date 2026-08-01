@@ -12,4 +12,7 @@ int main(){
         sum-=arr[i];
     }
     cout<<sum;
+
+    //time complexity: O(n)
+    //space complexity: O(1)
 }
