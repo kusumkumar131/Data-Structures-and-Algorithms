@@ -20,3 +20,5 @@ int main(){
     }
     return 0;
 }
+//time complexity of this code is O(n) and space complexity is O(n)
+//space complexity can be reduced to O(1) by using the input array itself to store the prefix sum.
