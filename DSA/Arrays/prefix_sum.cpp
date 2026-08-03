@@ -13,7 +13,7 @@ int main(){
     prefix_sum[0]=arr[0];
     for(int i=1;i<n;i++){
         prefix_sum[i]=prefix_sum[i-1]+arr[i];
-    }
+    }// The prefix sum array is now computed. Now we can print it.
     cout<<"The prefix sum array is: ";
     for(int i=0;i<n;i++){
         cout<<prefix_sum[i]<<" ";
