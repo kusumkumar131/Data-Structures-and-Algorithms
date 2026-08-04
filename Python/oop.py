@@ -13,3 +13,5 @@ class Cat(Animal):
     def speak(self):
         return f"{self.name} says Meow!"
 
+#sample usage
+dog = Dog("Buddy")  
