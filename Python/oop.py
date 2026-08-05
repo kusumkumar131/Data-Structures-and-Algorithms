@@ -16,5 +16,6 @@ class Cat(Animal):
 #sample usage
 dog = Dog("Buddy")  
 
+animal = Animal("Generic Animal")
 cat = Cat("Whiskers")
 print(dog.speak())
