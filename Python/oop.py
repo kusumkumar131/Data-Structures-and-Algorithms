@@ -17,3 +17,4 @@ class Cat(Animal):
 dog = Dog("Buddy")  
 
 cat = Cat("Whiskers")
+print(dog.speak())
