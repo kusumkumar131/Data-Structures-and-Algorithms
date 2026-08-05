@@ -15,3 +15,5 @@ class Cat(Animal):
 
 #sample usage
 dog = Dog("Buddy")  
+
+cat = Cat("Whiskers")
