@@ -12,3 +12,6 @@ sum=0
 
 for i in set_num:
     sum=sum+i
+
+temp=0
+arr=set([1,2,3,4,5,6,7,8,9])
