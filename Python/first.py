@@ -17,3 +17,5 @@ num1=int(input("Enter your first number:"))     #if don't use int() then it will
 num2=int(input("Enter your second number:"))         #if dont use int() then it will take input as string and we can't add two strings
 sum=num1+num2
 print("The sum of two numbers is:", sum)
+
+print(f"The sum of two numbers is: {sum}")  #f-string is used to format the string and print the value of sum variable in the string
