@@ -21,3 +21,5 @@ print("The sum of two numbers is:", sum)
 print(f"The sum of two numbers is: {sum}")  #f-string is used to format the string and print the value of sum variable in the string
 
 print("The sum of two numbers is: {}".format(sum))  #format() method is used to format the string and print the value of sum variable in the string
+
+l=print("The sum of two numbers is: %d" %sum)  #%d is used to format the string and print the value of sum variable in the string
