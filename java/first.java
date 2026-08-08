@@ -6,5 +6,7 @@ class first{
         Scanner sc = new Scanner(System.in); 
         int p=sc.nextInt(); 
         System.out.println("The value of p is: " + p); 
+        char ch = sc.next().charAt(0);
+        System.out.println("The value of ch is: " + ch);
     } 
 }   
