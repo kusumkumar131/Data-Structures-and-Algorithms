@@ -1,3 +1,4 @@
+import java.util.*;
 class second{
     public static void main(String[] args) {
         int a= 10;
