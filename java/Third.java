@@ -8,5 +8,10 @@ public class Third {
         System.out.println("The value of p is: " + p);
         char ch = sc.next().charAt(0);
         System.out.println("The value of ch is: " + ch);
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(20);   
+
+            
     }
 }
