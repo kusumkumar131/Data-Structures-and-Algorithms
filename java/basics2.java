@@ -6,5 +6,9 @@ public static void main(String[] args) {
     String s=sc.nextLine();
     System.out.println(a);
     System.out.println(s);
+    StringBuilder sb=new StringBuilder();
+    sb.append("Hello");
+    System.out.println(sb);
+
 }
 }
