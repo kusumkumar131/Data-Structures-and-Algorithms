@@ -15,6 +15,6 @@ print(happy)
 
 #area of circles overlapping    
 
-a1 = float(input("Enter the radius of the first circle: "))
+a1 = float(input("Enter the radius of the first circle:  "))
 a2 = float(input("Enter the radius of the second circle: "))
 a3 = float(input("Enter the distance between the centers of the circles: "))
