@@ -170,7 +170,7 @@ print(thisset) # will not raise an error if the item to remove does not exist
 
 
 
-thisset = {"apple", "banana", "cherry"}
+thisset = {"apple", "banana", "cherry","pineapple"}
 
 x = thisset.pop()
 
