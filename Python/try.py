@@ -6,3 +6,7 @@ except:
 
 
 
+n=input()
+
+p=list([1,23,3])
+    
