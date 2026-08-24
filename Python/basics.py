@@ -119,4 +119,4 @@ print(*lister)
 a=10
 b=10.0
 if(a==b):
-  print(true)
+  print(True)
